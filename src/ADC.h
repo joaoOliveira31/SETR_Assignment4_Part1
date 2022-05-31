@@ -25,8 +25,9 @@
 #ifndef _ADC_H
 #define _ADC_H
 
-/* Therad periodicity (in ms)*/
-#define thread_A_period 100
+/** Sampling Period
+*/
+#define SAMP_PERIOD_MS 1000
 
 
 #define ADC_NID DT_NODELABEL(adc) 
